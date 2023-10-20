@@ -1,0 +1,9 @@
+C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build/CMakeFiles/edit_cache.dir
+C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build/CMakeFiles/rebuild_cache.dir
+C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build/src/lib/CMakeFiles/Point3D.dir
+C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build/src/lib/CMakeFiles/Vector3D.dir
+C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build/src/lib/CMakeFiles/Curve.dir
+C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build/src/lib/CMakeFiles/edit_cache.dir
+C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build/src/lib/CMakeFiles/rebuild_cache.dir
+C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build/src/sources/CMakeFiles/edit_cache.dir
+C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build/src/sources/CMakeFiles/rebuild_cache.dir
