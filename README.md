@@ -1,42 +1,43 @@
-# Project README
+# README проекта
 
-This project is a C++ implementation that addresses the following tasks:
+Этот проект представляет собой реализацию на C++, решающую следующие задачи:
 
-## Building the Project with CMake
+## Сборка проекта с использованием CMake
 
-This project utilizes CMake for building. Follow these steps to build the project:
+Для сборки проекта используется CMake. Следуйте этим шагам, чтобы построить проект:
 
-1. **Create a Build Directory:**
-   - In the root directory of the project, create a build directory. You can do this by running the following commands in the terminal:
+1. **Создайте директорию для сборки:**
+   - В корневой директории проекта создайте директорию для сборки. Это можно сделать, выполнив следующие команды в терминале:
      ```bash
      mkdir build
      cd build
      ```
 
-2. **Run CMake:**
-   - Inside the build directory, run CMake to configure the project:
+2. **Запустите CMake:**
+   - Внутри директории для сборки выполните CMake для конфигурации проекта:
      ```bash
      cmake -G "Ninja" ../
      ```
 
-3. **Build the Project:**
-   - After configuring the project with CMake, build the project using the generated build system (e.g., Makefiles or Visual Studio solution):
+3. **Соберите проект:**
+   - После конфигурации проекта с помощью CMake соберите проект, используя сгенерированную систему сборки (например, Makefiles или решение Visual Studio):
      ```bash
      cmake --build .
      ```
 
-4. **Execute the Compiled Program:**
-   - Once the build process is complete, you can find the compiled executable in the build directory. Execute it to run the program:
+4. **Запустите скомпилированную программу:**
+   - После завершения процесса сборки скомпилированный исполняемый файл можно найти в директории для сборки. Запустите его для выполнения программы:
      ```bash
      ./CADEX
      ```
 
-**Note:**
-- You may need to replace `YourExecutableName` with the actual name of the executable generated during the build process.
+**Примечание:**
+- Возможно, вам придется заменить `YourExecutableName` на фактическое имя исполняемого файла, сгенерированного в процессе сборки.
 
-- If you encounter any issues during the build process, make sure you have CMake and a C++ compiler installed on your system. Adjust the CMakeLists.txt files as needed for your project structure.
+- Если возникнут проблемы во время процесса сборки, убедитесь, что у вас установлены CMake и компилятор C++. При необходимости настройте файлы CMakeLists.txt в соответствии с вашей структурой проекта.
 
-Feel free to customize the build process according to your preferences or project requirements.
+Не стесняйтесь настраивать процесс сборки в соответствии с вашими предпочтениями или требованиями проекта.
+
 
 
 ## Features
