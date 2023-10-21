@@ -3,4 +3,4 @@ bin/*
 .vscode/*
 .cache/*
 .cmake-format.py
-.clang-format
+*.clang-format*
