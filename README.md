@@ -2,6 +2,43 @@
 
 This project is a C++ implementation that addresses the following tasks:
 
+## Building the Project with CMake
+
+This project utilizes CMake for building. Follow these steps to build the project:
+
+1. **Create a Build Directory:**
+   - In the root directory of the project, create a build directory. You can do this by running the following commands in the terminal:
+     ```bash
+     mkdir build
+     cd build
+     ```
+
+2. **Run CMake:**
+   - Inside the build directory, run CMake to configure the project:
+     ```bash
+     cmake ..
+     ```
+
+3. **Build the Project:**
+   - After configuring the project with CMake, build the project using the generated build system (e.g., Makefiles or Visual Studio solution):
+     ```bash
+     cmake --build .
+     ```
+
+4. **Execute the Compiled Program:**
+   - Once the build process is complete, you can find the compiled executable in the build directory. Execute it to run the program:
+     ```bash
+     ./YourExecutableName
+     ```
+
+**Note:**
+- You may need to replace `YourExecutableName` with the actual name of the executable generated during the build process.
+
+- If you encounter any issues during the build process, make sure you have CMake and a C++ compiler installed on your system. Adjust the CMakeLists.txt files as needed for your project structure.
+
+Feel free to customize the build process according to your preferences or project requirements.
+
+
 ## Features
 
 1. **Support for Multiple Types of 3D Geometric Curves:**
