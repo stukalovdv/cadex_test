@@ -16,7 +16,7 @@ This project utilizes CMake for building. Follow these steps to build the projec
 2. **Run CMake:**
    - Inside the build directory, run CMake to configure the project:
      ```bash
-     cmake ..
+     cmake -G "Ninja" ../
      ```
 
 3. **Build the Project:**
@@ -28,7 +28,7 @@ This project utilizes CMake for building. Follow these steps to build the projec
 4. **Execute the Compiled Program:**
    - Once the build process is complete, you can find the compiled executable in the build directory. Execute it to run the program:
      ```bash
-     ./YourExecutableName
+     ./CADEX
      ```
 
 **Note:**
