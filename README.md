@@ -43,7 +43,7 @@
      | Указывать расширение файла не нужно |
 
 
-## Features
+## Текст задания
 
 1. **Support for Multiple Types of 3D Geometric Curves:**
    - The program supports three types of 3D geometric curves: circles, ellipses, and 3D spirals.
