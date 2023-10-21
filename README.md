@@ -43,43 +43,47 @@
      | Указывать расширение файла не нужно |
 
 
+
 ## Текст задания
 
-1. **Support for Multiple Types of 3D Geometric Curves:**
-   - The program supports three types of 3D geometric curves: circles, ellipses, and 3D spirals.
-   - Each curve type is capable of returning a 3D point and the first derivative (3D vector) with respect to the parameter `t`.
 
-2. **Creation of a Container with Randomly Generated Curves:**
-   - The application creates a container (e.g., vector or list) with objects of these curve types.
-   - The curves are randomly generated based on random parameters.
+# Тестовое задание на позицию C++ разработчика
 
-3. **Calculation of Coordinates and Derivatives at t=1:**
-   - The program computes the coordinates of points and derivatives of all curves in the container at the parameter value `t=1`.
+Это задание направлено на оценку уровня владения языком программирования, математического анализа, вычислительной геометрии и способности разобраться в новом материале при необходимости.
 
-4. **Population of a Second Container with Circles:**
-   - A second container is populated, containing only circles from the first container.
-   - Ensures uniqueness in the second container by checking for duplicates.
 
-5. **Sorting of the Second Container by Increasing Radius:**
-   - The program sorts the second container in ascending order based on the radii of the circles.
-   - The first element has the smallest radius, and the last has the largest radius.
+## Design a small program in C++ that would implement support of 3D curves hierarchy.
 
-6. **Calculation of the Total Sum of Radii in the Second Container:**
-   - The application computes the total sum of radii for all curves in the second container.
+1. Support a few types of 3D geometric curves — circles, ellipses and 3D helixes. (Simplified
+definitions are below). Each curve should be able to return a 3D point and a first derivative (3D
+vector) per parameter t along the curve.
 
-## Additional Optional Requirements
+2. Populate a container (e.g. vector or list) of objects of these types created in random manner with
+random parameters.
 
-7. **Separation of Implementation into Curve Library and Application:**
-   - The project is structured to separate the implementation into a curve library (or classes) and an application using the library's API.
+3. Print coordinates of points and derivatives of all curves in the container at `t=PI/4`.
 
-8. **Parallel Computation of the Total Sum of Radii:**
-   - The program optionally utilizes parallel computing, such as OpenMP or the Intel TBB library, to calculate the total sum of radii.
+4. Populate a second container that would contain only circles from the first container. Make sure the
+second container shares (i.e. not clones) circles of the first one, e.g. via pointers.
 
-## Implementation Requirements
+5. Sort the second container in the ascending order of circles’ radii. That is, the first element has the
+smallest radius, the last - the greatest.
 
-- The implementation uses virtual methods to achieve polymorphism.
-- Care is taken to avoid explicit manual memory allocation and memory leaks.
-- Geometric curves are physically correct; for example, radii are constrained to be positive.
-- Containers and sorting are implemented using the C++ Standard Template Library (STL).
-- The code may use C++11 or higher language features.
-- Compatibility with various compilers conforming to the C++11 standard (e.g., gcc, Visual C++, XCode) is ensured.
+6. Compute the total sum of radii of all curves in the second container.
+
+**(*) Additional optional requirements:**
+
+7. Split implementation into a library of curves (.dll or .so) and executable which uses API of this
+library.
+
+8. Implement computation of the total sum of radii using parallel computations (e.g. OpenMP or Intel
+TBB library).
+
+## Requirements to the implementation 
+
+1. The implementation must use virtual methods.
+2. Has neither explicit memory deallocation nor memory leaks.
+3. Curves must be physically correct (e.g. radii must be positive).
+4. Containers and sorting must be implemented using STL (C++ Standard Template Library).
+5. The implementation may use constructs of C++11 or higher.
+6. The code must compile with any compiler of your choice (gcc, Visual C++, etc).
