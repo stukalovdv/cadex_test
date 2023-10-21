@@ -42,5 +42,3 @@ This project is a C++ implementation that addresses the following tasks:
 - Containers and sorting are implemented using the C++ Standard Template Library (STL).
 - The code may use C++11 or higher language features.
 - Compatibility with various compilers conforming to the C++11 standard (e.g., gcc, Visual C++, XCode) is ensured.
-
-Feel free to explore and extend this project as needed.
