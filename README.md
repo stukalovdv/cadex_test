@@ -1,6 +1,47 @@
-# Project README
+# README проекта
 
-This project is a C++ implementation that addresses the following tasks:
+Этот проект представляет собой реализацию на C++, решающую следующие задачи:
+
+## Сборка проекта с использованием CMake
+
+Для сборки проекта используется CMake. Для сборки и запуска программы нужно:
+
+1. **Создать директорию для сборки:**
+     ```bash
+     mkdir build
+     cd build
+     ```
+
+2. **Сгенерировать файлы сборки:**
+   
+   `CMake` _генерирует файлы сборки для для системы сборки_ `Ninja`:
+     ```bash
+     cmake -G "Ninja" ../
+     ```
+
+4. **Собрать проект:**
+     ```bash
+     cmake --build .
+     ```
+
+5. **Запуск:**
+   > [!IMPORTANT]  
+   > Итоговый файл (`CADEX.exe` для Windows и `CADEX` для UNIX) создаётся автоматически в папке `/bin`.
+
+   Для запуска программы нужно перейти туда с помощью
+   ```bash
+    cd ../bin
+   ```
+   
+   Далее запустить исполняемый файл командой
+     ```bash
+     ./CADEX
+     ```
+     
+     | :point_up: Примечание      |
+     |:---------------------------|
+     | Указывать расширение файла не нужно |
+
 
 ## Features
 
@@ -42,5 +83,3 @@ This project is a C++ implementation that addresses the following tasks:
 - Containers and sorting are implemented using the C++ Standard Template Library (STL).
 - The code may use C++11 or higher language features.
 - Compatibility with various compilers conforming to the C++11 standard (e.g., gcc, Visual C++, XCode) is ensured.
-
-Feel free to explore and extend this project as needed.
