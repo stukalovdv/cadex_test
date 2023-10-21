@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX
+# Install script for directory: C:/Users/stukalovdv/YandexDisk/Work/Git/cadex_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/CADEX_task")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/CADEX")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build/src/lib/cmake_install.cmake")
+  include("C:/Users/stukalovdv/YandexDisk/Work/Git/cadex_test/build/src/lib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build/src/sources/cmake_install.cmake")
+  include("C:/Users/stukalovdv/YandexDisk/Work/Git/cadex_test/build/src/sources/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/stukalovdv/YandexDisk/Work/Git/cadex_test/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

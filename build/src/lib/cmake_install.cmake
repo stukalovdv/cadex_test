@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/src/lib
+# Install script for directory: C:/Users/stukalovdv/YandexDisk/Work/Git/cadex_test/src/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/CADEX_task")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/CADEX")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

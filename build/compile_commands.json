@@ -1,20 +1,26 @@
 [
 {
-  "directory": "C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build",
-  "command": "C:\\mingw64\\bin\\clang++.exe -IC:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build/src/lib -g -o src\\lib\\CMakeFiles\\Point3D.dir\\Point3D.cpp.obj -c C:\\Users\\stukalovdv\\YandexDisk\\Work\\Git\\CADEX\\src\\lib\\Point3D.cpp",
-  "file": "C:\\Users\\stukalovdv\\YandexDisk\\Work\\Git\\CADEX\\src\\lib\\Point3D.cpp",
+  "directory": "C:/Users/stukalovdv/YandexDisk/Work/Git/cadex_test/build",
+  "command": "C:\\mingw64\\bin\\clang++.exe -IC:/Users/stukalovdv/YandexDisk/Work/Git/cadex_test/build/src/lib -g -o src\\lib\\CMakeFiles\\Point3D.dir\\Point3D.cpp.obj -c C:\\Users\\stukalovdv\\YandexDisk\\Work\\Git\\cadex_test\\src\\lib\\Point3D.cpp",
+  "file": "C:\\Users\\stukalovdv\\YandexDisk\\Work\\Git\\cadex_test\\src\\lib\\Point3D.cpp",
   "output": "src\\lib\\CMakeFiles\\Point3D.dir\\Point3D.cpp.obj"
 },
 {
-  "directory": "C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build",
-  "command": "C:\\mingw64\\bin\\clang++.exe -IC:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build/src/lib -g -o src\\lib\\CMakeFiles\\Vector3D.dir\\Vector3D.cpp.obj -c C:\\Users\\stukalovdv\\YandexDisk\\Work\\Git\\CADEX\\src\\lib\\Vector3D.cpp",
-  "file": "C:\\Users\\stukalovdv\\YandexDisk\\Work\\Git\\CADEX\\src\\lib\\Vector3D.cpp",
+  "directory": "C:/Users/stukalovdv/YandexDisk/Work/Git/cadex_test/build",
+  "command": "C:\\mingw64\\bin\\clang++.exe -IC:/Users/stukalovdv/YandexDisk/Work/Git/cadex_test/build/src/lib -g -o src\\lib\\CMakeFiles\\Vector3D.dir\\Vector3D.cpp.obj -c C:\\Users\\stukalovdv\\YandexDisk\\Work\\Git\\cadex_test\\src\\lib\\Vector3D.cpp",
+  "file": "C:\\Users\\stukalovdv\\YandexDisk\\Work\\Git\\cadex_test\\src\\lib\\Vector3D.cpp",
   "output": "src\\lib\\CMakeFiles\\Vector3D.dir\\Vector3D.cpp.obj"
 },
 {
-  "directory": "C:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build",
-  "command": "C:\\mingw64\\bin\\clang++.exe -IC:/Users/stukalovdv/YandexDisk/Work/Git/CADEX/build/src/lib -g -o src\\lib\\CMakeFiles\\Curve.dir\\Curve.cpp.obj -c C:\\Users\\stukalovdv\\YandexDisk\\Work\\Git\\CADEX\\src\\lib\\Curve.cpp",
-  "file": "C:\\Users\\stukalovdv\\YandexDisk\\Work\\Git\\CADEX\\src\\lib\\Curve.cpp",
+  "directory": "C:/Users/stukalovdv/YandexDisk/Work/Git/cadex_test/build",
+  "command": "C:\\mingw64\\bin\\clang++.exe -IC:/Users/stukalovdv/YandexDisk/Work/Git/cadex_test/build/src/lib -g -o src\\lib\\CMakeFiles\\Curve.dir\\Curve.cpp.obj -c C:\\Users\\stukalovdv\\YandexDisk\\Work\\Git\\cadex_test\\src\\lib\\Curve.cpp",
+  "file": "C:\\Users\\stukalovdv\\YandexDisk\\Work\\Git\\cadex_test\\src\\lib\\Curve.cpp",
   "output": "src\\lib\\CMakeFiles\\Curve.dir\\Curve.cpp.obj"
+},
+{
+  "directory": "C:/Users/stukalovdv/YandexDisk/Work/Git/cadex_test/build",
+  "command": "C:\\mingw64\\bin\\clang++.exe -IC:/Users/stukalovdv/YandexDisk/Work/Git/cadex_test/build/src/sources -IC:/Users/stukalovdv/YandexDisk/Work/Git/cadex_test/src/sources/../lib -g -Wall -Wextra -Wpedantic -o src\\sources\\CMakeFiles\\CADEX.dir\\main.cpp.obj -c C:\\Users\\stukalovdv\\YandexDisk\\Work\\Git\\cadex_test\\src\\sources\\main.cpp",
+  "file": "C:\\Users\\stukalovdv\\YandexDisk\\Work\\Git\\cadex_test\\src\\sources\\main.cpp",
+  "output": "src\\sources\\CMakeFiles\\CADEX.dir\\main.cpp.obj"
 }
 ]
