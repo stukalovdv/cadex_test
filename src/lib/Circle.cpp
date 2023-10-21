@@ -1,7 +1,5 @@
 #include "Circle.h"
 
-#include <cmath>
-
 Circle::Circle(double radius, double zCenter) : radius(radius), zCenter(zCenter)
 {}
 

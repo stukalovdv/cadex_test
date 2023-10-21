@@ -3,22 +3,20 @@ add_executable (
     main.cpp
 )
 
-set (CMAKE_CXX_STANDARD
-     20
-)
-set (
-    CMAKE_CXX_STANDARD_REQUIRED
-    ON
-)
-set (CMAKE_CXX_EXTENSIONS
-     NO
+set_target_properties (
+    ${PROJECT_NAME}
+    PROPERTIES
+        CXX_STANDARD 20
+        CXX_STANDARD_REQUIRED
+        YES
+        CXX_EXTENSIONS
+        NO
 )
 
-target_compile_options (
-    ${PROJECT_NAME}
-    PUBLIC -Wall -Wextra
-           -Wpedantic
-)
+# target_compile_options
+# ( ${PROJECT_NAME}
+# PUBLIC /std:c++20
+# -Wextra )
 
 target_include_directories (
     ${PROJECT_NAME}
