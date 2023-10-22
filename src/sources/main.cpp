@@ -1,3 +1,4 @@
+#include <corecrt.h>
 #include <algorithm>
 #include <cstdlib>
 #include <ctime>
@@ -24,7 +25,7 @@ int main()
     // 2) Populate a container (e.g. vector or list) of objects of these types
     // created in random manner with random parameters.
     vector<unique_ptr<Curve>> curvesContainer;
-    for (int i = 0; i < 5; ++i)
+    for (size_t i = 0; i < 5; i++)
     {
         double radius = generateRandomDouble(1.0, 5.0);
         double zCenter = generateRandomDouble(-2.0, 2.0);
