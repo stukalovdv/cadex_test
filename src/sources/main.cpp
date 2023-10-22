@@ -1,5 +1,4 @@
 #include <algorithm>
-#include <cmath>
 #include <cstdlib>
 #include <ctime>
 #include <iomanip>
@@ -20,22 +19,20 @@ double generateRandomDouble(double, double);
 
 int main()
 {
-    // Rand number generator
     srand(static_cast<unsigned>(time(0)));
 
-    // Populate a container of objects of these types created in random
-    // manner with random parameters.
+    // 2) Populate a container (e.g. vector or list) of objects of these types
+    // created in random manner with random parameters.
     vector<unique_ptr<Curve>> curvesContainer;
     for (int i = 0; i < 5; ++i)
     {
-        // Create a curves
         double radius = generateRandomDouble(1.0, 5.0);
         double zCenter = generateRandomDouble(-2.0, 2.0);
         curvesContainer.push_back(make_unique<Circle>(radius, zCenter));
     }
 
-    // Print coordinates of points and derivatives of all curves in the
-    // container at t=PI/4.
+    // 3) Print coordinates of points and derivatives of all curves in the
+    // container at t = PI / 4.
     cout << "Coordinates and derivatives at t=PI/4:" << endl << fixed;
     for (const auto& curve : curvesContainer)
     {
@@ -51,8 +48,9 @@ int main()
              << setw(10) << setprecision(6) << derivative.z << ")" << endl;
     }
 
-    // Populate a second container that would contain only circles from the
-    // first container
+    // 4) Populate a second container that would contain only circles from the
+    // first container. Make sure the second container shares (i.e. not clones)
+    // circles of the first one, e.g. via pointers.
     vector<Circle*> circlesContainer;
     for (const auto& curve : curvesContainer)
     {
@@ -62,7 +60,9 @@ int main()
         }
     }
 
-    // Sort the second container in the ascending order of circles’ radii.
+    // 5) Sort the second container in the ascending order of circles’ radii.
+    // That is, the first element has the smallest radius, the last - the
+    // greatest.
     sort(circlesContainer.begin(), circlesContainer.end(),
          [](const auto& a, const auto& b) {
              return a->getRadius() < b->getRadius();
@@ -74,17 +74,16 @@ int main()
         cout << "Radius: " << circle->getRadius() << endl;
     }
 
-    // Compute the total sum of radii of all curves in the second container.
+    // 6) Compute the total sum of radii of all curves in the second container.
     double totalRadiusSum = 0.0;
     for (const auto& circle : circlesContainer)
     {
         totalRadiusSum += circle->getRadius();
     }
-
     cout << "Total radius sum: " << totalRadiusSum << endl;
+
     // Memory allocation
     curvesContainer.clear();
-
     return 0;
 }
 

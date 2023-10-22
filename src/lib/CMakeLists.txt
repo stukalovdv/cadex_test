@@ -1,4 +1,4 @@
-#Point3D
+# Point3D
 add_library (
     Point3D STATIC
     Point3D.cpp
@@ -9,7 +9,7 @@ target_include_directories (
     PRIVATE
         ${CMAKE_CURRENT_BINARY_DIR}
 )
-#Vector3D
+# Vector3D
 add_library (
     Vector3D STATIC
     Vector3D.cpp
@@ -20,10 +20,9 @@ target_include_directories (
     PRIVATE
         ${CMAKE_CURRENT_BINARY_DIR}
 )
-#Curve
+# Curve
 add_library (
-    Curve STATIC
-    Curve.h
+    Curve STATIC Curve.h
 )
 target_include_directories (
     Curve
@@ -31,11 +30,10 @@ target_include_directories (
         ${CMAKE_CURRENT_BINARY_DIR}
 )
 target_link_libraries (
-    Curve 
-    Point3D
+    Curve Point3D
     Vector3D
 )
-#Circle
+# Circle
 add_library (
     Circle STATIC
     Circle.cpp Circle.h
@@ -46,13 +44,12 @@ target_include_directories (
         ${CMAKE_CURRENT_BINARY_DIR}
 )
 target_link_libraries (
-    Circle Curve 
-    Point3D
+    Circle Curve Point3D
     Vector3D
 )
-#Ellipse
+# Ellipse
 add_library (
-    Ellipse STATIC    
+    Ellipse STATIC
     Ellipse.cpp
     Ellipse.h
 )
@@ -62,16 +59,13 @@ target_include_directories (
         ${CMAKE_CURRENT_BINARY_DIR}
 )
 target_link_libraries (
-    Ellipse
-    Curve
-    Point3D
-    Vector3D
+    Ellipse Curve
+    Point3D Vector3D
 )
-#Spiral
+# Spiral
 add_library (
     Spiral STATIC
-    Spiral.cpp
-    Spiral.h
+    Spiral.cpp Spiral.h
 )
 target_include_directories (
     Spiral
@@ -79,8 +73,6 @@ target_include_directories (
         ${CMAKE_CURRENT_BINARY_DIR}
 )
 target_link_libraries (
-    Spiral    
-    Curve
-    Point3D
+    Spiral Curve Point3D
     Vector3D
 )

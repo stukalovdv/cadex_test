@@ -1,8 +1,6 @@
 #ifndef ELLIPSE_H
 #define ELLIPSE_H
 
-#include <cmath>
-
 #include "Curve.h"
 
 class Ellipse : public Curve

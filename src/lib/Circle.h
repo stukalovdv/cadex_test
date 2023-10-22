@@ -1,10 +1,7 @@
 #ifndef CIRCLE_H
 #define CIRCLE_H
 
-#include <cmath>
-
 #include "Curve.h"
-
 
 class Circle : public Curve
 {

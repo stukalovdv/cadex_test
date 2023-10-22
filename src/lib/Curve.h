@@ -1,5 +1,7 @@
 #ifndef CURVE_H
 #define CURVE_H
+#include <cmath>
+
 #include "Point3D.h"
 #include "Vector3D.h"
 
